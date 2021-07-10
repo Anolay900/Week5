@@ -1,0 +1,107 @@
+@media screen and (min-width:760px) and (max-width:960px) {
+
+    .secmenu {
+        display: none;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about,
+    .fight {
+        margin: 2%;
+    }
+
+    html {
+        width: 100%;
+        height: 100vh;
+    }
+
+}
+
+@media screen and (min-width:320px) and (max-width:759px) {
+    .secmenu {
+        display: none;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about,
+    .fight {
+        margin: 2%;
+    }
+
+    html {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .main_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        font-size: 2vh;
+        padding: 2%;
+    }
+
+}
+
+@media screen and (min-width:240px) and (max-width:319px) {
+
+    .froggy-menu {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 4%;
+        height: 100%;
+    }
+
+    .logo {
+        grid-row: 1/4;
+        grid-column: 1/2;
+    }
+
+    .first_line {
+        align-self: end;
+    }
+
+    .second_line {
+        align-self: start;
+    }
+
+    .secmenu {
+        display: none;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about,
+    .fight {
+        margin: 2%;
+    }
+
+    html {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .main_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        font-size: 4vh;
+        padding: 4%;
+    }
+}
